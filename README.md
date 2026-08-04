@@ -1,21 +1,23 @@
-# ApexPlanet Data Analytics Internship – Task 1
-## Data Immersion & Data Wrangling using Python (Pandas)
+# 📊 ApexPlanet Data Analytics Internship – Task 1
+
+# Data Cleaning & Preparation using Python (Pandas)
 
 ## 📌 Project Overview
 
 This project was completed as part of the **ApexPlanet Data Analytics Internship**.
 
-The objective of Task 1 is to understand the provided sales dataset, assess its quality, identify data issues, clean and transform the data, and prepare it for further analysis.
+The objective of **Task 1** was to understand the provided sales dataset, assess its quality, identify data quality issues, clean and transform the data, and prepare it for further analysis.
 
 ---
 
 # 📊 Dataset Information
 
-- **Dataset Name:** ApexPlanet Sales Dataset
-- **Total Records:** 1000
+**Dataset Name:** ApexPlanet Sales Dataset
+
+- **Total Records:** 1,000
 - **Total Columns:** 12
 
-The dataset contains customer information, order details, product information, pricing, and sales transactions.
+The dataset contains customer information, order details, product information, pricing, and sales transaction data.
 
 ---
 
@@ -31,9 +33,9 @@ The dataset contains customer information, order details, product information, p
 
 ---
 
-# 📁 Project Files
+# 📁 Project Structure
 
-```
+```text
 ApexPlanet-DataAnalytics-Task1/
 
 ├── ApexPlanet_DataAnalytics_Dataset.xlsx
@@ -50,20 +52,20 @@ ApexPlanet-DataAnalytics-Task1/
 
 # 📖 Data Dictionary
 
-A comprehensive Data Dictionary was created for every column in the dataset, including:
+A comprehensive **Data Dictionary** was created for every column in the dataset, including:
 
 - Column Name
 - Data Type
 - Description
 - Business Importance
 
-This helps users understand the purpose and business relevance of each attribute.
+This documentation helps users understand the purpose and business relevance of every attribute in the dataset.
 
 ---
 
 # 🔍 Data Quality Assessment
 
-The dataset was profiled to identify potential data quality issues.
+The dataset was profiled to identify potential data quality issues before analysis.
 
 ## Checks Performed
 
@@ -76,11 +78,11 @@ The dataset was profiled to identify potential data quality issues.
 
 ## Issues Identified
 
-- 20 missing values in the **Age** column.
-- 13 missing values in the **City** column.
-- Duplicate **Order_ID** values detected.
-- **Order_Date** stored as text format.
-- No calculation errors found in **Total_Sales**.
+- 20 missing values in the **Age** column
+- 13 missing values in the **City** column
+- Duplicate **Order_ID** values detected
+- **Order_Date** stored as text instead of datetime
+- No calculation errors found in **Total_Sales**
 
 ---
 
@@ -89,21 +91,21 @@ The dataset was profiled to identify potential data quality issues.
 The following preprocessing steps were performed using **Python (Pandas)**:
 
 - Filled missing **Age** values using the median age within each gender group.
-- Replaced missing **City** values with `"Unknown"`.
+- Replaced missing **City** values with **"Unknown"**.
 - Converted **Order_Date** to datetime format.
 - Standardized the date format.
 - Resolved duplicate **Order_ID** values by creating unique identifiers.
-- Added new features:
+- Created additional analytical features:
   - Order_Year
   - Order_Month
   - Age_Group
 - Validated that:
 
-```
+```text
 Total_Sales = Quantity × Unit_Price
 ```
 
-for all records.
+for every record.
 
 ---
 
@@ -114,8 +116,8 @@ The cleaned dataset was validated to ensure:
 - No missing values remain.
 - Every **Order_ID** is unique.
 - **Total_Sales** is correctly calculated.
-- Date format is standardized.
-- Dataset is ready for analysis.
+- Date formats are standardized.
+- The dataset is ready for further analysis.
 
 ---
 
@@ -134,12 +136,12 @@ The cleaned dataset was validated to ensure:
 
 After completing the data cleaning process:
 
-- Dataset quality improved significantly.
-- Missing values were handled.
-- Duplicate order IDs were resolved.
-- Date formats were standardized.
-- New analytical features were created.
-- The dataset is now ready for Exploratory Data Analysis (EDA) and Business Intelligence.
+- Improved overall dataset quality.
+- Handled all missing values.
+- Resolved duplicate order IDs.
+- Standardized date formats.
+- Created new analytical features.
+- Prepared the dataset for Exploratory Data Analysis (EDA) and Business Intelligence.
 
 ---
 
@@ -150,7 +152,7 @@ The cleaned dataset will be used in **Task 2** for:
 - Exploratory Data Analysis (EDA)
 - Data Visualization
 - Business Insights
-- Dashboard Development
+- Interactive Dashboard Development
 
 ---
 
@@ -158,11 +160,14 @@ The cleaned dataset will be used in **Task 2** for:
 
 **Alok Kumar**
 
-B.Tech in Computer Science & Engineering  
-IIIT Kottayam
+**B.Tech – Computer Science & Engineering**
 
-**GitHub:** https://github.com/alokkumar-dotcom
+**Indian Institute of Information Technology (IIIT) Kottayam**
+
+🔗 **GitHub:** https://github.com/alokkumar-dotcom
+
+🔗 **LinkedIn:** https://www.linkedin.com/in/alok-kumar-b19a2835b/
 
 ---
 
-## ⭐ If you found this project useful, feel free to star the repository.
+⭐ **If you found this project useful, consider starring the repository and exploring the remaining internship projects in this series.**
