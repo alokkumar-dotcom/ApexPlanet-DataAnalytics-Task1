@@ -1,6 +1,6 @@
 # 📊 ApexPlanet Data Analytics Internship – Task 1
 
-# Data Cleaning & Preparation using Python (Pandas)
+## Data Cleaning & Preparation using Python (Pandas)
 
 ## 📌 Project Overview
 
@@ -10,7 +10,7 @@ The objective of **Task 1** was to understand the provided sales dataset, assess
 
 ---
 
-# 📊 Dataset Information
+## 📊 Dataset Information
 
 **Dataset Name:** ApexPlanet Sales Dataset
 
@@ -21,7 +21,7 @@ The dataset contains customer information, order details, product information, p
 
 ---
 
-# 🎯 Objectives
+## 🎯 Objectives
 
 - Understand the dataset structure
 - Create a Data Dictionary
@@ -33,7 +33,7 @@ The dataset contains customer information, order details, product information, p
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```text
 ApexPlanet-DataAnalytics-Task1/
@@ -50,7 +50,7 @@ ApexPlanet-DataAnalytics-Task1/
 
 ---
 
-# 📖 Data Dictionary
+## 📖 Data Dictionary
 
 A comprehensive **Data Dictionary** was created for every column in the dataset, including:
 
@@ -63,11 +63,11 @@ This documentation helps users understand the purpose and business relevance of 
 
 ---
 
-# 🔍 Data Quality Assessment
+## 🔍 Data Quality Assessment
 
 The dataset was profiled to identify potential data quality issues before analysis.
 
-## Checks Performed
+### Checks Performed
 
 - Missing Value Detection
 - Duplicate Record Detection
@@ -76,7 +76,7 @@ The dataset was profiled to identify potential data quality issues before analys
 - Outlier Analysis
 - Logical Validation
 
-## Issues Identified
+### Issues Identified
 
 - 20 missing values in the **Age** column
 - 13 missing values in the **City** column
@@ -86,7 +86,7 @@ The dataset was profiled to identify potential data quality issues before analys
 
 ---
 
-# 🧹 Data Cleaning & Transformation
+## 🧹 Data Cleaning & Transformation
 
 The following preprocessing steps were performed using **Python (Pandas)**:
 
@@ -99,7 +99,8 @@ The following preprocessing steps were performed using **Python (Pandas)**:
   - Order_Year
   - Order_Month
   - Age_Group
-- Validated that:
+
+Validated that:
 
 ```text
 Total_Sales = Quantity × Unit_Price
@@ -109,7 +110,7 @@ for every record.
 
 ---
 
-# ✅ Data Validation
+## ✅ Data Validation
 
 The cleaned dataset was validated to ensure:
 
@@ -121,7 +122,7 @@ The cleaned dataset was validated to ensure:
 
 ---
 
-# 🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
@@ -132,7 +133,7 @@ The cleaned dataset was validated to ensure:
 
 ---
 
-# 📈 Project Outcome
+## 📈 Project Outcome
 
 After completing the data cleaning process:
 
@@ -145,7 +146,7 @@ After completing the data cleaning process:
 
 ---
 
-# 🚀 Future Work
+## 🚀 Future Work
 
 The cleaned dataset will be used in **Task 2** for:
 
@@ -156,7 +157,7 @@ The cleaned dataset will be used in **Task 2** for:
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Alok Kumar**
 
@@ -170,4 +171,4 @@ The cleaned dataset will be used in **Task 2** for:
 
 ---
 
-⭐ **If you found this project useful, consider starring the repository and exploring the remaining internship projects in this series.**
+⭐ If you found this project useful, consider starring the repository and exploring the remaining internship projects in this series.
